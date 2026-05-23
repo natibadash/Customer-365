@@ -1,13 +1,5 @@
 import streamlit as st
 from openai import OpenAI
-import os
-# משיכת המפתח מההגדרות המאובטחות שהגדרנו ב-Streamlit
-client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-st.title("מנתח החברות האישי שלך")
-company = st.text_input("הכנס שם חברה:")
-# ... המשך הקוד כפי שהיה
-import streamlit as st
-from openai import OpenAI
 
 # הגדרת הכותרת
 st.title("מנתח החברות האישי שלך")
