@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+import streamlit as st
+# ... שאר הקוד שלך
+
 import streamlit as st
 from openai import OpenAI
 
